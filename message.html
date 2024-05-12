@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <style>
+        *{
+            font-family: cursive;
+        }
+        .message{
+            font-size: 26px;
+            animation: letter 2s;
+        }
+
+        @keyframes letter {
+            0%{
+                transform: scale(0);
+                text-align: center;
+                font-size: 0px;
+            }
+            100%{
+                transform: scale(1);
+                text-align: center;
+                font-size: 26px;
+            }
+            
+        }
+        .messages{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1 style="text-align: center;">Happy Mother's Day To All Mothers</h1>
+    </div>
+    <div class="message">
+        <img style="display: block; margin: auto; width: 500px;" src="messages.png">
+        <!-- <p class="messages">To all the incredible moms who are always there for their children, even when times are tough, Happy Mother's Day!</p> -->
+    </div>
+</body>
+</html>
